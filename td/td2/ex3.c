@@ -8,15 +8,17 @@ int fct(int n)
     }
     else
     {
+        ;
         res=1+fct(n-1);
+        printf("res=%d\n", res);
         return res+n;
     }
 }
 int main(void)
 {
     int resu;
-    /*resu=fct(10);
-    resu=fct(1000);*/
-    resu=fct(1000000);
+    resu=fct(10);/*
+    resu=fct(1000);
+    resu=fct(1000000);*/
     printf("resultat=%d\n", resu);
 }
