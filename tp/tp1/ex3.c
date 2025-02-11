@@ -3,6 +3,7 @@
 int main(void)
 {
     short int tab[10];
+    int i;
     printf("entrez 10 entiers courts dans le tableau : ");
     for (int i = 0; i < 10; i++)
     {
