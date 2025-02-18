@@ -16,5 +16,6 @@ int main(void)
             printf("Malloc renvoie 0 !!Erreur !");
             exit(1);
         }
+        free (p);
     }
 }
